@@ -1,0 +1,54 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+.receita {
+  border-style: solid;
+  border-color: lightgray;
+  border-width: 2px;
+  margin-left: 30px;
+
+}
+
+.preparo {
+  border-style: solid;
+  border-width: 2px;
+  border-color: cyan;
+  width: 60%;
+  margin-left: 20px;
+}
+.aba-comentario {
+  border-style: solid;
+  border-width: 2px;
+  border-color: aqua;
+  width: 38%;
+  position: absolute;
+  right: 0px;
+}
+
+.informacoes {
+  margin-right: 30px;
+  margin-left: 50px !important;
+}
+
+.imagem_receita {
+  margin-right: 30px;
+}
+.biografia{
+  border-style: solid;
+  border-color: rgb(3, 255, 242);
+  border-width: 2px;
+  margin-left: 30px;
+}
+
+.passo-comentarios{
+  position: relative;
+}
+
+.ingredientes {
+  margin-left: 200px !important;
+}
+.passos {
+  margin-left: 20px !important;
+}

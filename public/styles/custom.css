@@ -1,0 +1,65 @@
+* {
+  margin: 0 !important;
+  padding: 0 !important;
+  box-sizing: border-box !important;
+}
+
+.sbv {
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+
+  background-color: rgb(236, 236, 236);
+}
+.sbv h1, .mr-title h1 {
+  font-size: 18px !important;
+  font-weight: 600;
+}
+
+#main {
+  
+  height: 545px !important;
+}
+.video {
+  padding: 40px 20px !important;
+  border: 3px solid rgb(228, 228, 228);
+}
+
+#other-recipes {
+  height: 544px;
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-width: 2px;
+}
+
+.mr {
+  border-style: solid;
+  border-color: rgb(224, 224, 224);
+  border-width: 2px;
+}
+
+.mr-title {
+  border-bottom-width: 0px;
+  border-style: solid;
+  border-color: rgb(228, 228, 228);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+  background-color: rgb(236, 236, 236);
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+}
+
+#recipe-list {
+  padding: 10px;
+}
+
+#user-menu a {
+  color: #ffff;
+}

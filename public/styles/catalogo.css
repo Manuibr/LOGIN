@@ -1,0 +1,95 @@
+* {
+  padding: 0 !important;
+  margin: 0 !important;
+  box-sizing: border-box !important;
+}
+
+a {
+  color: rgb(0, 0, 0) !important;
+  text-decoration: none !important;
+}
+
+
+input, button {
+  box-shadow: none !important;
+}
+
+p {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+#search-nav, #other-recipes {
+  width: 40%;
+}
+.catalogo {
+  border-style: solid;
+  border-color: rgb(190, 189, 189);
+  border-width: 2px;
+  margin-left: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color:#ffffff;
+}
+.descricao_catalogo {
+  width: 33.3333%;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px !important;
+}
+.botoes {
+  text-align: center;
+  margin: 0 !important;
+}
+.catalogo-botoes{
+  width: 50px;
+
+}
+.catalogo-botao {
+  width: 30px;
+}
+.nome_catalogo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+/* Estilização Do Header */
+header, #row-2 {
+  background-color: #b71540 !important;
+  color: #fff !important;
+}
+
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+#search-nav, #other-recipes {
+  width: 40%;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #fff;
+}
+.breadcrumb li {
+  color: #fff !important;
+}
+
+.breadcrumb {
+  background-color: rgb(250, 250, 250);
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 15px;
+  margin: 0 !important;
+  background-color: #b71540 !important;
+}
+
+#search-nav form {
+  background-color: #b71540;
+}
+
+#search-input {
+  border-width: 0px 0px;
+  box-shadow: none;
+}
