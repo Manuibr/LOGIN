@@ -1,0 +1,27 @@
+{
+  "name": "projetodomanui",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel public/pages/cadastro.html",
+    "prod": "parcel build public/pages/cadastro.html"
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Manuibr/LOGIN.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Manuibr/LOGIN/issues"
+  },
+  "homepage": "https://github.com/Manuibr/LOGIN#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.3"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
