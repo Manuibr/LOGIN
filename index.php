@@ -1,3 +1,3 @@
 <?php
 
-header("Location: src/pages/cadastro.html");
+header("Location: public/pages/cadastro.html");
