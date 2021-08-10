@@ -1,0 +1,54 @@
+header {
+  box-sizing: content-box !important;
+}
+
+header, #row-2 {
+  background-color: #b71540 !important;
+  color: #fff !important;
+}
+
+#row-2 {
+  height: 38px;
+}
+
+#breadcrumb-nav, #main {
+  width: 60%;
+}
+
+#search-nav, #other-recipes {
+  width: 40%;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #fff !important;
+}
+
+.breadcrumb li {
+  color: #fff !important;
+}
+
+.breadcrumb {
+  background-color: #fafafa;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 15px;
+  margin: 0 !important;
+  background-color: #b71540 !important;
+}
+
+#search-nav form {
+  background-color: #b71540;
+}
+
+#search-input {
+  padding-left: 5px !important;
+  border-width: 0px 0px;
+  box-shadow: none;
+}
+
+#username {
+  color: #ffff !important;
+  text-decoration: underline !important;
+}
+
+/*# sourceMappingURL=/header.f6cee5e2.css.map */
