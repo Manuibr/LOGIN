@@ -14,14 +14,14 @@
 .preparo {
   border-style: solid;
   border-width: 2px;
-  border-color: cyan;
+  border-color: rgb(105, 105, 105);
   width: 60%;
   margin-left: 20px;
 }
 .aba-comentario {
   border-style: solid;
   border-width: 2px;
-  border-color: aqua;
+  border-color: rgb(107, 107, 107);
   width: 38%;
   position: absolute;
   right: 0px;
@@ -37,13 +37,15 @@
 }
 .biografia{
   border-style: solid;
-  border-color: rgb(3, 255, 242);
+  border-color: rgb(105, 105, 105);
   border-width: 2px;
   margin-left: 30px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .passo-comentarios{
   position: relative;
+  border-color:rgb(105, 105, 105);
 }
 
 .ingredientes {
@@ -51,4 +53,8 @@
 }
 .passos {
   margin-left: 20px !important;
+  border-color:rgb(105, 105, 105); 
+}
+.curiosidades{
+  font-family: cursive
 }
