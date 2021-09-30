@@ -101,6 +101,7 @@ class Database {
     public function execute($query, $params = []) {
         try {
             $statement = $this->connection->prepare($query);
+            
             $statement->execute($params);
 
             return $statement;
@@ -144,17 +145,22 @@ class Database {
      * 
      * @return  PDOStatement     
      */
-    public function select($where = null, $order = null, $limit = null, $fields = '*') {
+    public function select($where = null, $order = null, $limit = null, $like = null, $fields = '*') {
         // Dados da query
         $where = strlen($where) ? 'WHERE ' . $where : '';
         $order = strlen($order) ? 'ORDER BY ' . $order : '';
         $limit = strlen($limit) ? 'LIMIT ' . $limit : '';
 
+        $result = $like;
+        $like = strlen($like) ? 'LIKE :result ' : '';
+
         // Preparar Query
-        $query = 'SELECT ' . $fields . ' FROM ' . $this->table . ' ' . $where . ' ' . $order . ' ' . $limit;
+        $query = 'SELECT ' . $fields . ' FROM ' . $this->table . ' ' . $where . ' ' . $like . ' ' . $order . ' ' . $limit;
 
         // Exectuar a Query
-        return $this->execute($query);
+        return $this->execute($query, [
+            ':result' => "%$result%"
+        ]);
     }
 
     /**

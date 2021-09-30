@@ -63,3 +63,22 @@
 #user-menu a {
   color: #ffff;
 }
+
+
+/* PESQUISA */
+#search-response {
+  height: 500px;
+
+  background-color: #fff; 
+  color: #000;
+
+  border-radius: 5px;
+  box-shadow: 0px 1px 4px 2px rgba(0, 0, 0, 0.2);
+
+  margin-top: 5px !important;
+  padding: 10px !important;
+}
+
+#search-response ul {
+  list-style-type: none;
+}

@@ -8,9 +8,9 @@ use \PDO;
 
 class Receitas {
  
-    public static function getUsers() {
+    public static function select() {
         $obDatabase = new Database('users');
-        return $obDatabase->select()->fetchAll(PDO::FETCH_CLASS, self::class);;
+        return $obDatabase->select()->fetchAll(PDO::FETCH_CLASS, self::class);
     }
 
 }

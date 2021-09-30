@@ -10,10 +10,9 @@ $obUsers = new Users();
 $name = $_POST['name'];
 $email = $_POST['email'];
 $password = $_POST['password'];
-$repetedPassword = $_POST['repetedPassword'];
 
 if(isset($name, $email, $password, $repetedPassword)) {
-    
+
     $obUsers->name = $name;
     $obUsers->email = $email;
     $obUsers->password = $password;
