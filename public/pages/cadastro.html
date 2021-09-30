@@ -18,21 +18,21 @@
                 <h1 class="fw-bold">Cadastre-se</h1>
                 <p class="fs-4">Preencha as informações abaixo</p>
             </div>
-            <form action="" method="post">
+            <form action="../../app/Controller/Cadastro/Users.php" method="post">
                 <div id="usuario-input" class="form-floating mb-3">
-                    <input type="text" class="form-control" id="nome-usuario" placeholder="Nome de usuário" required>
+                    <input type="text" name="name" class="form-control" id="nome-usuario" placeholder="Nome de usuário" required>
                     <label for="nome-usuario">Nome de usuário</label>
                 </div>
                 <div id="senha-input" class="form-floating mb-3">
-                    <input type="password" class="form-control" id="senha" placeholder="Senha" required>
+                    <input type="password" name="password" class="form-control" id="senha" placeholder="Senha" >
                     <label for="senha">Senha</label>
                 </div>
                 <div id="repetir-senha-input" class="form-floating mb-3">
-                    <input type="password" class="form-control" id="repetir-senha" placeholder="Repetir senha" required>
+                    <input type="password" name="repetedPassword" class="form-control" id="repetir-senha" placeholder="Repetir senha" required>
                     <label for="repetir-senha">Repetir senha</label>
                 </div>
                 <div id="email-input" class="form-floating mb-3">
-                    <input type="email" class="form-control" id="email" placeholder="Endereço de E-mail" required>
+                    <input type="email" name="email" class="form-control" id="email" placeholder="Endereço de E-mail" required>
                     <label for="email">Endereço de E-mail</label>
                 </div>
                 <div id="submit-input" class="mb-2">
