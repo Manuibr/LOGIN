@@ -39,6 +39,22 @@ class Ajax{
             this.getAjax().send();
         }
     }
+
+    inserir(receita) {
+        if(this.getAjax()){
+            this.getAjax().onreadystatechange = function(){
+                if(this.readyState == 4){
+                    if(this.status == 200 || this.status == 304){
+                        console.log('receita adicionada')
+                    }else{
+                        console.log("Erro no servidor");
+                    }
+                }
+            };
+            this.getAjax().open("GET",'../../app/Model/ENtity/Receitas/insert.php?ingredientName=' + word, true);
+            this.getAjax().send();
+        }
+    }
 }
 
 export {Ajax};
