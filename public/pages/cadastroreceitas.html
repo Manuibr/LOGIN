@@ -56,8 +56,12 @@
             <div class="mb-2">
               <img src="" height="150" width="150">
             </div>
-            <div class="botao_imagem">
-              <button class="btn btn-outline-success w-100 p-1" type="submit">enviar imagem</button>
+            <div class="botao_imagem d-flex flex-column">
+              <input type="file" accept="image/*" hidden id="inserir_arquivo"> 
+              <label for="inserir_arquivo" class="borda_inserir p-2 mb-1">Selecione a Imagem</label>
+              <button type="button" class="btn btn-success p-2" >
+                ENVIAR ARQUIVO
+              </button>
             </div>
           </div>
           <div class="">
@@ -150,7 +154,9 @@
         </div>
 
       </div>
-      <div>
+      <div class=" d-flex justify-content-end">
+        <button type="button" class="btn btn-success p-2 me-1">Cadastrar Receita</button>
+        <button type="button" class="btn btn-danger p-2 me-1">Cancelar Receita</button>
       </div>
     </main>
  </body>
