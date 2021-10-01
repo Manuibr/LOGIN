@@ -24,7 +24,7 @@ p {
   border-width: 2px;
   margin-left: 20px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  background-image: url(..\img\backgroundcorpo.jpg);
+  background-image: url('..\img\backgroundcorpo.jpg');
 }
 .titulo_cadastro {
   margin-left: 20px;
@@ -43,23 +43,17 @@ p {
 .caixa_titulo {
 }
 
-#remove-ingredient {
-  border: 1px solid #5F83BB !important;
-  border-right: 0px solid #0000 !important;
-  border-radius: 0px !important;
-  width: 35px !important;
-  height: 35px !important;
+
+#ingredient-controls::after {
+  content: none;
 }
 
-#add-ingredient {
-  width: 35px !important;
-  height: 35px !important;
-  font-size: 13px;
+#add-ingredient p {
+  font-size: 1.5em;
 }
 
-#ingredient-name {
-  border: 1px solid #5F83BB;
-  width: 100%;
+.input-ingredient {
+  outline: none !important;
 }
 .cabecalho {
   background-image: url("../img/backgrounsite.jpg");
